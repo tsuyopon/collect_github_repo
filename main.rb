@@ -48,7 +48,7 @@ data["repositories"].each do |repodata, vv|
       dirname = repodata["dirname"]
     else
       # dirnameが指定されていなければ、xxxx.gitのxxxxをディレクトリ名として抽出する
-      matchstr = repodata["repo"].match(/\/(.+).git$/)
+      matchstr = repodata["repo"].match(/\/(\w+?).git$/)
       dirname = matchstr[1]
     end
 
