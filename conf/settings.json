@@ -1,0 +1,13 @@
+{
+    "projectName": "Collect Repository",
+    "repositories": [
+        {
+            "repo": "git@github.com:githubtraining/hellogitworld.git"
+        },
+        {
+            "repo": "git@github.com:tsuyopon/utils.git",
+            "branch": "main",
+            "dirname": "myutils"
+        }
+    ]
+}
